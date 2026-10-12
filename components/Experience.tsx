@@ -6,7 +6,7 @@ export default function Experience() {
   return (
     <section id="experience" className="py-24">
       <div className="mx-auto max-w-5xl px-6">
-        <SectionHeading index="02" title="Experience" />
+        <SectionHeading index="01" title="Experience" />
         <div className="space-y-12">
           {experience.map((job) => (
             <Reveal key={`${job.company}-${job.period}`}>

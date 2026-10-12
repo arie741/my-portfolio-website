@@ -9,7 +9,11 @@ export const profile = {
   linkedin: "https://linkedin.com/in/586a3b14b",
   github: "https://github.com/arie741",
   cvFile: "/Nyoman-Arie-Pranasakti-CV.pdf",
+  photo: "/photo.png",
+  country: "Indonesia",
 };
+
+export const topSkills = ["React.js / Next.js", "Node.js", "Go", "AWS", "Docker"];
 
 export const skills = [
   "React.js / Next.js",

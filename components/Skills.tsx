@@ -6,7 +6,7 @@ export default function Skills() {
   return (
     <section id="skills" className="bg-surface py-24">
       <div className="mx-auto max-w-5xl px-6">
-        <SectionHeading index="03" title="Skills" />
+        <SectionHeading index="02" title="Skills" />
         <Reveal>
           <div className="flex flex-wrap gap-3">
             {skills.map((skill) => (

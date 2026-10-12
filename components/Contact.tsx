@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <section id="contact" className="py-24">
       <div className="mx-auto max-w-5xl px-6">
-        <SectionHeading index="04" title="Contact" />
+        <SectionHeading index="03" title="Contact" />
         <p className="max-w-lg font-mono text-base leading-relaxed text-muted sm:text-lg">
           Looking for a developer that likes to get stuff done? Reach out and let&apos;s talk.
         </p>
