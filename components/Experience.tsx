@@ -8,9 +8,13 @@ export default function Experience() {
       <div className="mx-auto max-w-full px-6 sm:max-w-[80%]">
         <SectionHeading index="01" title="Experience" />
         <div className="space-y-12">
-          {experience.map((job) => (
+          {experience.map((job, index) => (
             <Reveal key={`${job.company}-${job.period}`}>
-              <div className="grid gap-4 border-t border-white/10 pt-8 sm:grid-cols-[180px_1fr]">
+              <div
+                className={`grid gap-4 pt-8 sm:grid-cols-[180px_1fr] ${
+                  index === 0 ? "" : "border-t border-white/10"
+                }`}
+              >
                 <div className="font-mono text-sm text-muted">
                   <p>{job.period}</p>
                   <p className="mt-1 text-accent">{job.location}</p>
