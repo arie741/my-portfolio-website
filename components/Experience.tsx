@@ -1,4 +1,5 @@
 import { experience } from "@/lib/cv";
+import { highlightSkills } from "@/lib/highlightSkills";
 import SectionHeading from "./SectionHeading";
 import Reveal from "./Reveal";
 
@@ -36,7 +37,7 @@ export default function Experience() {
                   <ul className="mt-4 space-y-2">
                     {job.bullets.map((bullet, i) => (
                       <li key={i} className="font-mono text-sm leading-relaxed text-muted sm:text-base">
-                        — {bullet}
+                        — {highlightSkills(bullet)}
                       </li>
                     ))}
                   </ul>
