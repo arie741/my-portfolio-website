@@ -13,7 +13,7 @@ export const profile = {
   country: "Indonesia",
 };
 
-export const topSkills = ["React.js / Next.js", "Node.js", "Go", "AWS", "Docker"];
+export const topSkills = ["React.js / Next.js", "Node.js", "Go", "AWS", "Docker", "Claude Code", "LangChain"];
 
 export const skills = [
   "React.js / Next.js",

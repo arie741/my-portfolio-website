@@ -64,14 +64,14 @@ export default function ProfileCard() {
             {skill}
           </span>
         ))}
+        <a
+          href="#skills"
+          className="rounded-full border bg-accent border-accent/40 px-3 py-1 font-mono text-[11px] text-background hover:opacity-90 transition-opacity"
+        >
+            See more skills...
+          </a>
       </div>
 
-      <a
-        href="#skills"
-        className="mt-6 block rounded-full bg-accent px-5 py-2.5 text-center text-sm font-medium text-background transition-opacity hover:opacity-90"
-      >
-        See more...
-      </a>
     </div>
   );
 }
