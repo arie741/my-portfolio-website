@@ -47,6 +47,7 @@ export type Experience = {
   location: string;
   role: string;
   company: string;
+  skills: string[];
   bullets: string[];
 };
 
@@ -56,6 +57,7 @@ export const experience: Experience[] = [
     location: "Australia",
     role: "Full Stack Developer",
     company: "Green Energy Trading",
+    skills: ["React.js", "Node.js", "TypeScript", "AWS", "Jest", "GraphQL", "gRPC", "PostgreSQL", "Docker / K8s", "Claude Code", "GitHub Copilot"],
     bullets: [
       "Tailor in-house multiple energy certificate calculation software using React.js, Node.js, TypeScript, AWS, and Jest to expand our market reach in Australia's green energy market.",
       "Maintain and manage microservices using GraphQL, gRPC, PostgreSQL, and Docker/Kubernetes as we develop new calculation software and business logic.",
@@ -67,6 +69,7 @@ export const experience: Experience[] = [
     location: "South Korea",
     role: "Full-Stack Developer",
     company: "Energy X (에너지엑스)",
+    skills: ["React.js", "Next.js", "Go", "MongoDB", "AWS"],
     bullets: [
       "Built from scratch and maintain data-simulation applications driven by complex algorithms and data presentation layers using React.js, Next.js, Go, MongoDB, and AWS to replace old calculation software for the finance department.",
     ],
@@ -76,6 +79,7 @@ export const experience: Experience[] = [
     location: "Singapore",
     role: "Full Stack Engineer",
     company: "Stranger Soccer",
+    skills: ["GitHub", "Jest", "PHP", "MySQL"],
     bullets: [
       "Improved the workflow of in-house development by implementing version control using GitHub and unit testing methodology using Jest.",
       "Shipped new features such as \"add a friend\" and promo code features using mainly PHP and MySQL.",
@@ -86,6 +90,7 @@ export const experience: Experience[] = [
     location: "Jakarta",
     role: "Chief of IT",
     company: "Visi Jurusan",
+    skills: ["Clojure", "React.js", "PostgreSQL"],
     bullets: [
       "Developed and maintained the company's internal software such as mailing system, file storage system, and employee ledger using Clojure, React.js and PostgreSQL.",
       "Built, maintained, and maximized the SEO of the company marketing website using Clojure, React.js and PostgreSQL, resulting in a 300% increase in user count.",
@@ -96,6 +101,7 @@ export const experience: Experience[] = [
     location: "Indonesia",
     role: "IT Specialist (Part-time)",
     company: "Zenius Center",
+    skills: ["Clojure", "Go", "MySQL", "React Native", "AWS", "React.js", "Next.js", "Node.js"],
     bullets: [
       "Built and maintained score-testing web/mobile applications using Clojure, Go, MySQL, React Native, and AWS, which became the main products of the company.",
       "Built a psycho-test (psychological testing) application using React.js, Next.js, Node.js, MySQL to help students practice for exams.",
@@ -107,6 +113,7 @@ export const experience: Experience[] = [
     location: "Jakarta",
     role: "Frontend Web Developer",
     company: "PT Zenius Education",
+    skills: ["HTML", "CSS", "Middleman", "Bootstrap"],
     bullets: [
       "Developed an entirely new company website from scratch using basic HTML and CSS, and templating languages such as Middleman and Bootstrap.",
     ],
