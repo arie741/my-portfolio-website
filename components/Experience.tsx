@@ -23,6 +23,16 @@ export default function Experience() {
                   <h3 className="font-heading text-xl font-medium text-foreground">
                     {job.role} <span className="text-accent">· {job.company}</span>
                   </h3>
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    {job.skills.map((skill) => (
+                      <span
+                        key={skill}
+                        className="rounded-full border border-white/10 px-2.5 py-0.5 font-mono text-xs text-accent"
+                      >
+                        {skill}
+                      </span>
+                    ))}
+                  </div>
                   <ul className="mt-4 space-y-2">
                     {job.bullets.map((bullet, i) => (
                       <li key={i} className="font-mono text-sm leading-relaxed text-muted sm:text-base">
