@@ -3,9 +3,9 @@ import { profile } from "@/lib/cv";
 export default function Hero() {
   return (
     <section id="top" className="mx-auto max-w-5xl px-6 pb-24 pt-20 sm:pt-32">
-      <p className="font-mono text-accent">Hey</p>
+      <p className="font-mono text-6xl font-bold text-accent">Hey</p>
       <h1 className="font-heading mt-2 text-4xl font-medium leading-tight text-foreground sm:text-6xl">
-        I&apos;m <span className="text-accent">Arie</span>,
+        I&apos;m <span className="text-accent">Nyoman Arie Pranasakti</span>
         <br />
         {profile.title}
       </h1>

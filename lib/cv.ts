@@ -1,6 +1,6 @@
 export const profile = {
   name: "Nyoman Arie Pranasakti",
-  title: "Full-Stack Web / Mobile Developer",
+  title: "Full-Stack Developer",
   location: "South Tangerang, Banten, Indonesia",
   summary:
     "I'm a passionate self-taught programmer, worked in multiple international companies. Working on full-stack web and mobile application projects for 10+ years.",
