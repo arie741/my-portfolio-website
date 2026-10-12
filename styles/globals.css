@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+:root {
+  --background: #1a1e23;
+  --surface: #292f36;
+  --foreground: #f5f5f4;
+  --muted: #9ca3af;
+  --accent: #12f7d6;
+  --accent-light: #97f9eb;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-accent-light: var(--accent-light);
+  --font-heading: var(--font-ubuntu);
+  --font-mono: var(--font-ibm-plex-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-ibm-plex-mono), monospace;
+}
