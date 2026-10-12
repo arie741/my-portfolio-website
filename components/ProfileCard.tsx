@@ -20,7 +20,7 @@ export default function ProfileCard() {
             alt={profile.name}
             width={96}
             height={96}
-            className="h-full w-full object-cover"
+            className="h-full w-full object-cover object-[center_65%]"
             priority
           />
         </div>
