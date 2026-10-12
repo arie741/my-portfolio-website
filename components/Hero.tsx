@@ -7,7 +7,7 @@ export default function Hero() {
       id="top"
       className="mx-auto flex max-w-full flex-col items-center gap-12 px-6 pb-24 pt-20 sm:max-w-[80%] sm:pt-32 lg:flex-row lg:items-start lg:justify-between"
     >
-      <div className="lg:max-w-xl">
+      <div>
         <p className="font-mono text-6xl font-bold text-accent">Hey</p>
         <h1 className="font-heading mt-2 text-4xl font-medium leading-tight text-foreground sm:text-6xl">
           I&apos;m <span className="text-accent">Nyoman Arie Pranasakti</span>

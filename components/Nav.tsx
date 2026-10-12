@@ -16,7 +16,7 @@ export default function Nav() {
         <ul className="hidden items-center gap-8 text-sm sm:flex">
           {links.map((link) => (
             <li key={link.href}>
-              <a href={link.href} className="text-muted transition-colors hover:text-accent">
+              <a href={link.href} className="font-bold text-2xl text-white transition-colors hover:text-accent">
                 {link.label}
               </a>
             </li>
@@ -28,7 +28,7 @@ export default function Nav() {
             target="_blank"
             rel="noreferrer"
             aria-label="GitHub"
-            className="text-muted transition-colors hover:text-accent"
+            className="transition-colors hover:text-accent"
           >
             <GithubIcon className="h-5 w-5" />
           </a>
@@ -37,14 +37,14 @@ export default function Nav() {
             target="_blank"
             rel="noreferrer"
             aria-label="LinkedIn"
-            className="text-muted transition-colors hover:text-accent"
+            className="transition-colors hover:text-accent"
           >
             <LinkedinIcon className="h-5 w-5" />
           </a>
           <a
             href={`mailto:${profile.email}`}
             aria-label="Email"
-            className="text-muted transition-colors hover:text-accent"
+            className="transition-colors hover:text-accent"
           >
             <MailIcon className="h-5 w-5" />
           </a>
