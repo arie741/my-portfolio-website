@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section
       id="top"
-      className="mx-auto flex max-w-5xl flex-col items-center gap-12 px-6 pb-24 pt-20 sm:pt-32 lg:flex-row lg:items-start lg:justify-between"
+      className="mx-auto flex max-w-full flex-col items-center gap-12 px-6 pb-24 pt-20 sm:max-w-[80%] sm:pt-32 lg:flex-row lg:items-start lg:justify-between"
     >
       <div className="lg:max-w-xl">
         <p className="font-mono text-6xl font-bold text-accent">Hey</p>

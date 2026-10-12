@@ -9,7 +9,7 @@ const links = [
 export default function Nav() {
   return (
     <header className="sticky top-0 z-50 border-b border-white/10 bg-background/90 backdrop-blur">
-      <nav className="mx-auto flex max-w-5xl items-center justify-between px-6 py-5">
+      <nav className="mx-auto flex max-w-full items-center justify-between px-6 py-5 sm:max-w-[80%]">
         <a href="#top" className="font-heading text-4xl font-medium text-foreground">
           <span className="text-accent">{"<"}html/{">"}</span> Arie
         </a>

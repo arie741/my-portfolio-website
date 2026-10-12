@@ -5,7 +5,7 @@ import Reveal from "./Reveal";
 export default function Experience() {
   return (
     <section id="experience" className="py-24">
-      <div className="mx-auto max-w-5xl px-6">
+      <div className="mx-auto max-w-full px-6 sm:max-w-[80%]">
         <SectionHeading index="01" title="Experience" />
         <div className="space-y-12">
           {experience.map((job) => (
